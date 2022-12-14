@@ -67,8 +67,8 @@ legend{
     padding: 10px;
 }
 .icones {
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content:space-between
 
 }
 
