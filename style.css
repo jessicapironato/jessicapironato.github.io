@@ -50,8 +50,9 @@ h2{
     padding: 40px;
     font-size: 30px;
     text-align: center;
+    font-weight:bolder;
 }
-#sobre, #trabalho, #foto {
+.sobre, .trabalho, .foto {
     width: 600px;
     background-color: rgba(228, 209, 223, 0.26);
     padding: 25px;
@@ -64,6 +65,11 @@ h2{
 legend{
     color: rgb(18, 0, 22);
     padding: 10px;
+}
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .myImage{
@@ -79,6 +85,5 @@ footer{
     padding: 20px;
     background-color:rgba(16, 16, 16, 0.76);
     font-size: 20px;
-    
-    
 }
+    
