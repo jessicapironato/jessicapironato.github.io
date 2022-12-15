@@ -40,9 +40,9 @@ body{
     text-align: justify;  
 }
 main{
-    display: flex;
+    display:grid;
     justify-content: space-between;
-    margin: 90px;
+    margin: 150px;
     margin-top: -50px;
     
 }
@@ -53,8 +53,8 @@ h2{
     font-weight:bolder;
 }
 .sobre, .trabalho, .foto {
-    width: 600px;
-    background-color: rgba(228, 209, 223, 0.26);
+    width: 1500px;
+    background-color: rgba(228, 209, 223, 0.781);
     padding: 25px;
     border-radius: 16px;
     text-align: justify;
@@ -81,9 +81,9 @@ legend{
 footer{
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color: rgb(12, 12, 12);
     padding: 20px;
-    background-color:rgba(16, 16, 16, 0.76);
+    background-color:rgba(228, 209, 223, 0.781);
     font-size: 20px;
 }
     
